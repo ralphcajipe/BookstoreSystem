@@ -53,6 +53,11 @@ Push the commit to the branch name
 >>> git push origin home-php
 ```
 
+Go to the GitHub repository link 
+```
+click Compare & Pull Request to open a pull request. Leave comments for good practice.
+```
+
 If going back to the ```main``` branch
 ```
 >>> git checkout main
