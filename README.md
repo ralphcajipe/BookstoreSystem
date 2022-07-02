@@ -12,7 +12,7 @@ Watch https://youtu.be/PzJCwfYfIzY
 ## 📺 Tutorial: How to work with multiple developers on the same project 
 Watch https://youtu.be/MnUd31TvBoU
 
-## 😄😄Clone the project on your ```C:\xampp\htdocs```
+## 😄😄Clone this project on your ```C:\xampp\htdocs```
 ```
 >>> cd C:\xampp\htdocs\
 
