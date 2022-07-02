@@ -20,24 +20,29 @@ Watch https://youtu.be/PzJCwfYfIzY
 ```
 
 ## Creating Pull Requests (tell others about your code edits or changes)
-Example: Create a new branch for the homepage php script. This preserves state of the main branch. We don't want to push directly into the main branch.
+Example: Create a new branch for the homepage php script. This preserves the state of the main branch. We don't want to push directly into the main branch.
 Use simple and readable branch names!
 ```
 >>> git checkout -b home-php
 ```
 
-Add the file to the branch
+To add a single file to the new branch
 ```
 >>> git add home.php
 ```
 
-Commit what you've done through a message.
+Or to add all changed files
+```
+>>> git add -A
+```
+
+Always commit what you've done through a message.
 The commit message should be in present tense.
 ```
 >>> git commit -m "add home.php"
 ```
 
-Push the branch name
+Push the commit to the branch name
 ```
 >>> git push origin home-php
 ```
@@ -51,3 +56,5 @@ Always stay up-to-date with the main branch
 ```
 >>> git pull origin main
 ```
+
+And this series of git commands repeats in development 🔂
