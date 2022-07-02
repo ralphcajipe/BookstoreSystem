@@ -57,7 +57,8 @@ Go to the GitHub repository on your web browser
 ```
 Click "Compare & Pull Request" to open a pull request. Leave comments for good practice.
 Mention on the comment on who you want to check and merge (to main branch) the pull request you made.
-After creating a pull request, wait for that collaborator to review your code and to notify you if it is approved for merging, or needs further coding, or rejected.
+After creating a pull request, wait for that collaborator to review your code and to notify you
+if it is approved for merging, or needs further coding, or rejected.
 ```
 
 If going back to the ```main``` branch
