@@ -10,7 +10,7 @@ This is where we track issues of development.
 ## Set Git Bash as your default terminal for VS Code
 Watch https://youtu.be/PzJCwfYfIzY
 
-## Clone the project on your C:\xampp\htdocs
+## Clone the project on your ```C:\xampp\htdocs```
 ```
 >>> cd C:\xampp\htdocs\
 
@@ -20,7 +20,7 @@ Watch https://youtu.be/PzJCwfYfIzY
 ```
 
 ## Creating Pull Requests (tell others about your code edits or changes)
-Example: Create a new branch for the homepage php script. This preserves the state of the main branch. We don't want to push directly into the main branch.
+Example: Create a new branch for the homepage php script. This preserves the state of the ```main``` branch. We don't want to push directly into the ```main``` branch.
 Use simple and readable branch names!
 ```
 >>> git checkout -b home-php
@@ -37,9 +37,13 @@ Or to add all changed files
 ```
 
 Always commit what you've done through a message.
-The commit message should be in present tense.
+The commit message should be logical and in present tense.
 ```
 >>> git commit -m "add home.php"
+or
+>>> git commit -m "delete name_of_feature in home.php"
+or
+>>> git commit -m "change name_of_feature in home.php"
 ```
 
 Push the commit to the branch name
@@ -47,12 +51,12 @@ Push the commit to the branch name
 >>> git push origin home-php
 ```
 
-If going back to the main branch
+If going back to the ```main``` branch
 ```
 >>> git checkout main
 ```
 
-Always stay up-to-date with the main branch
+Always stay up-to-date with the ```main``` branch
 ```
 >>> git pull origin main
 ```
