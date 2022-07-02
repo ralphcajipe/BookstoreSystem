@@ -53,7 +53,7 @@ Push the commit to the branch name
 >>> git push origin home-php
 ```
 
-Go to the GitHub repository link 
+Go to the GitHub repository on your web browser
 ```
 Click "Compare & Pull Request" to open a pull request. Leave comments for good practice.
 ```
