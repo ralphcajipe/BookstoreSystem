@@ -1,16 +1,18 @@
 # BookstoreSystem
 
-## Click on Projects 
+## 🅿 Click on Projects 
 This is where tasks are assigned and their Todo, In Progress, and Done status are noted.
 
-
-## Click on Issues
+## ⚠ Click on Issues
 This is where we track issues of development.
 
-## Set Git Bash as your default terminal for VS Code
+## 💻 Set Git Bash as your default terminal for VS Code
 Watch https://youtu.be/PzJCwfYfIzY
 
-## Clone the project on your ```C:\xampp\htdocs```
+## 📺 Tutorial: How to work with multiple developers on the same project 
+Watch https://youtu.be/MnUd31TvBoU
+
+## 😄😄Clone the project on your ```C:\xampp\htdocs```
 ```
 >>> cd C:\xampp\htdocs\
 
@@ -19,7 +21,7 @@ Watch https://youtu.be/PzJCwfYfIzY
 >>> git pull origin main
 ```
 
-## Creating Pull Requests (tell others about your code edits or changes)
+## 📢 Creating Pull Requests (tell others about your code edits or changes)
 Example: Create a new branch for the homepage php script. This preserves the state of the ```main``` branch. We don't want to push directly into the ```main``` branch.
 Use simple and readable branch names!
 ```
@@ -36,7 +38,7 @@ Or to add all changed files
 >>> git add -A
 ```
 
-Always commit what you've done through a message.
+✉ Always commit what you've done through a message.
 The commit message should be logical and in present tense.
 ```
 >>> git commit -m "add home.php"
@@ -61,4 +63,4 @@ Always stay up-to-date with the ```main``` branch
 >>> git pull origin main
 ```
 
-And this series of git commands repeats in development 🔂
+🔁 And this series of git commands repeats in development.
