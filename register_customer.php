@@ -12,7 +12,8 @@
             <br><input type = "password" name = "password">
             <br><input type = "checkbox" name = "terms" value = "true"> Accept <a href = "terms.php">Terms and Agreement</a>
             <br><?php
-                    if(isset($error)){
+                    if (isset($error))
+                    {
                         echo "<br>".$error;
                     }
                 ?>

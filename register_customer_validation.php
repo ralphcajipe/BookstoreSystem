@@ -1,11 +1,18 @@
 <?php
-if(empty($_POST["username"])){
+if (empty($_POST["username"]))
+{
     $error = "Please insert a username.";
-}elseif(empty($_POST["password"])){
+}
+elseif (empty($_POST["password"]))
+{
     $error = "Please insert a password.";
-}elseif($_POST["terms"] != "true"){
+}
+elseif ($_POST["terms"] != "true")
+{
     $error = "Please accept the terms and agreement.";
-}else{
+}
+else
+{
     //Database Connection
     $conn = mysqli_connect("localhost", "root", "", "db_bookstore") or die("Unable to connect.");
     $id = random_int(1000,1999);
