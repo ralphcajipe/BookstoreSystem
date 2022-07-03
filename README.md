@@ -17,7 +17,10 @@ Watch https://youtu.be/MnUd31TvBoU
 >>> cd C:\xampp\htdocs\
 
 >>> git clone https://github.com/ralphcajipe/BookstoreSystem.git
+```
 
+## Always stay up-to-date with the ```main``` branch
+```
 >>> git pull origin main
 ```
 
