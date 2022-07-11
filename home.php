@@ -1,8 +1,8 @@
- <!-- Header-->
- <header class="bg-dark py-5" id="main-header">
+<!-- Header-->
+<header class="bg-dark py-5" id="main-header">
     <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">If you want to make intelligent, get books from here.</h1>
+            <h1 class="display-4 fw-bolder">The best computer technologybooks at your fingertips.</h1>
             <p class="lead fw-normal text-white-50 mb-0">Shop Now!</p>
         </div>
     </div>
