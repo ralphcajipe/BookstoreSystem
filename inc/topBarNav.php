@@ -6,14 +6,7 @@
                 <?php echo $_settings->info('short_name') ?>
                 </a>
 
-                <form class="form-inline" id="search-form">
-                  <div class="input-group">
-                    <input class="form-control form-control-sm form " type="search" placeholder="Search" aria-label="Search" name="search"  value="<?php echo isset($_GET['search']) ? $_GET['search'] : "" ?>"  aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-success btn-sm m-0" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
-                    </div>
-                  </div>
-                </form>
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="./">Home</a></li>
@@ -42,6 +35,16 @@
                         <?php endif; ?>
                         <li class="nav-item"><a class="nav-link" href="./?p=about">About</a></li>
                     </ul>
+
+                    <form class="form-inline" id="search-form">
+                      <div class="input-group">
+                        <input class="form-control form-control-sm form " type="search" placeholder="Search" aria-label="Search" name="search"  value="<?php echo isset($_GET['search']) ? $_GET['search'] : "" ?>"  aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-success btn-sm m-0" type="submit" id="button-addon2"><i class="fa fa-search"></i></button>
+                        </div>
+                      </div>
+                    </form>
+
                     <div class="d-flex align-items-center">
                       <?php if(!isset($_SESSION['userdata']['id'])): ?>
                         <button class="btn btn-outline-dark ml-2" id="login-btn" type="button">Login</button>
