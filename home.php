@@ -1,14 +1,15 @@
 <!-- Header-->
 <header class="bg-dark py-5" id="main-header">
-    <div class="container px-4 px-lg-5 my-5">
+    <div class="container px-1 px-lg-2 my-2">
         <div class="text-center text-white">
-            <h3 class="display-4 fw-bolder">The best computer technology books at your fingertips.</h3>
+            <h3 class="display-4 fw-bolder">The best computer technology books at your fingertips🖐</h3>
         </div>
     </div>
 </header>
 
 <!-- Section-->
-<!-- A CSS code that is used to make the image fit the container. -->
+
+<!-- A CSS code that is used to style the image. -->
 <style>
     .book-cover {
         object-fit: contain !important;
@@ -49,7 +50,10 @@
                                 <!-- Product name-->
                                 <h5 class="fw-bolder"><?php echo $row['title'] ?></h5>
                                 <!-- Product price-->
-                                <?php foreach ($inv as $k => $v) : ?>
+                                <?php
+                                /* Looping through the array and displaying the price. */
+                                foreach ($inv as $k => $v) :
+                                ?>
                                     <span><b>Price: </b><?php echo $v ?></span>
                                 <?php endforeach; ?>
                             </div>
