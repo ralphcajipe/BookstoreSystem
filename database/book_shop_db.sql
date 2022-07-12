@@ -266,7 +266,7 @@ INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
 -- (11, 'logo', 'uploads/1626397500_book_logo.jpg'),
 (11, 'logo', '📚'),
 (13, 'user_avatar', 'uploads/user_avatar.jpg'),
-(14, 'cover', 'uploads/bookonslogan.jpg');
+(14, 'cover', 'BookstoreSystem/uploads/bookonslogan.jpg');
 
 -- --------------------------------------------------------
 
