@@ -2,7 +2,7 @@
 <header class="bg-dark py-5" id="main-header">
     <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
-            <h3 class="display-4 fw-bolder">The best computer technology books at your fingertips.</h3>
+            <h3 class="display-4 fw-bolder">The best computer technology books at your fingertips🖐</h3>
         </div>
     </div>
 </header>
