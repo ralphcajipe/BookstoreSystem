@@ -2952,14 +2952,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: #2e6da4;
+    border-color: #2e6da4;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
+    background-color: #ec7018;
+    border-color: #ec7018;
 }
 
 .btn-check:focus+.btn-primary,
