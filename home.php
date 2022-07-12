@@ -17,22 +17,26 @@
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-md-3 row-cols-xl-4 justify-content-center">
             <?php 
+                /* A PHP code that is fetching data from the database and displaying it on the page. */
                 $products = $conn->query("SELECT * FROM `products` where status = 1 order by rand() limit 8 ");
                 while($row = $products->fetch_assoc()):
                     $upload_path = base_app.'/uploads/product_'.$row['id'];
                     $img = "";
-                    if(is_dir($upload_path)){
+                    if(is_dir($upload_path))
+                    {
                         $fileO = scandir($upload_path);
                         if(isset($fileO[2]))
                             $img = "uploads/product_".$row['id']."/".$fileO[2];
                         // var_dump($fileO);
                     }
-                    foreach($row as $k=> $v){
+                    foreach($row as $k=> $v)
+                    {
                         $row[$k] = trim(stripslashes($v));
                     }
                     $inventory = $conn->query("SELECT * FROM inventory where product_id = ".$row['id']);
                     $inv = array();
-                    while($ir = $inventory->fetch_assoc()){
+                    while($ir = $inventory->fetch_assoc())
+                    {
                         $inv[] = number_format($ir['price']);
                     }
             ?>
