@@ -16,6 +16,14 @@
         height: auto !important;
     }
 </style>
+
+<!-- An announcement to say New Arrivals! -->
+<div class="container px-1 px-lg-2 my-2">
+    <div class="text-center text-white">
+        <h3 class="display-4 fw-bolder">New Arrivals!</h3>
+    </div>
+</div>
+
 <section class="py-5">
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-md-3 row-cols-xl-4 justify-content-center">
