@@ -4631,7 +4631,7 @@ fieldset:disabled .btn {
 }
 
 .card {
-    position: relative;
+    position: static;
     display: flex;
     flex-direction: column;
     min-width: 0;
