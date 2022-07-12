@@ -18,7 +18,7 @@
 </style>
 
 <!-- An announcement to say New Arrivals! -->
-<div class="container px-1 px-lg-2 my-2">
+<div class="container px-1 px-lg-1 my-1">
     <div class="text-center text-red">
         <h3 class="display-4 fw-bolder">New Arrivals!</h3>
     </div>
