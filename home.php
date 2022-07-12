@@ -1,6 +1,6 @@
 <!-- Header-->
 <header class="bg-dark py-5" id="main-header">
-    <div class="container px-1 px-lg-2 my-2">
+    <div class="container px-1 px-lg-1 my-1">
         <div class="text-center text-white">
             <h3 class="display-4 fw-bolder">The best computer technology books at your fingertips🖐</h3>
         </div>
