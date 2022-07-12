@@ -57,13 +57,13 @@
     <script src="<?php echo base_url ?>assets/js/scripts.js"></script>
     <style>
     #main-header{
-        position:relative;
+        position:static;
         background: rgb(0,0,0)!important;
         background: radial-gradient(circle, rgba(0,0,0,0.48503151260504207) 22%, rgba(0,0,0,0.39539565826330536) 49%, rgba(0,212,255,0) 100%)!important;
     }
     #main-header:before{
         content:"";
-        position:absolute;
+        position:static;
         top:0;
         left:0;
         width:100%;
