@@ -2,7 +2,7 @@
 <header class="bg-dark py-5" id="main-header">
     <div class="container px-1 px-lg-1 my-1">
         <div class="text-center text-white">
-            <h3 class="display-4 fw-bolder">The best computer technology books at your fingertips🖐</h3>
+            <h4 class="display-5">The best computer technology books at your fingertips🖐</h4>
         </div>
     </div>
 </header>
@@ -20,7 +20,7 @@
 <!-- An announcement to say New Arrivals! -->
 <div class="container px-1 px-lg-1 my-1">
     <div class="text-center text-red">
-        <h3 class="display-4 fw-bolder">New Arrivals!</h3>
+        <h3 class="display-5 fw-bolder">New Arrivals!</h3>
     </div>
 </div>
 
