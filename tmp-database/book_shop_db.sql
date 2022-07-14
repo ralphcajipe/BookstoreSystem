@@ -267,8 +267,8 @@ CREATE TABLE `system_info` (
 --
 
 INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
-(1, 'name', 'Online Book Shop'),
-(6, 'short_name', 'Books'),
+(1, 'name', 'Booker: Online Bookstore'),
+(6, 'short_name', '<b>Booker</b>'),
 (11, 'logo', 'uploads/1626397500_book_logo.jpg'),
 (13, 'user_avatar', 'uploads/user_avatar.jpg'),
 (14, 'cover', 'uploads/1626397620_books.jpg');
