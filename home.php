@@ -1,14 +1,4 @@
-<!-- Header-->
-<header class="bg-dark py-5" id="main-header">
-    <div class="container px-1 px-lg-1 my-1">
-        <div class="text-center text-white">
-            <h4 class="display-5">The best computer technology books at your fingertips🖐</h4>
-        </div>
-    </div>
-</header>
-
 <!-- Section-->
-
 <!-- A CSS code that is used to style the image. -->
 <style>
     .book-cover {
@@ -17,14 +7,14 @@
     }
 </style>
 
-<!-- An announcement to say New Arrivals! -->
+<!-- An announcement to display "new releases!" -->
 <div class="container px-1 px-lg-1 my-1">
     <div class="text-center text-red">
-        <h3 class="display-5 fw-bolder">New Arrivals!</h3>
+        <h3 class="display-5">new releases!</h3>
     </div>
 </div>
 
-<section class="py-5">
+<section class="py-0"> <!-- This is the spacing for the "new releases" -->
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-md-3 row-cols-xl-4 justify-content-center">
             <?php
