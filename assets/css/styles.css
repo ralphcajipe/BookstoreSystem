@@ -716,6 +716,7 @@ progress {
 }
 
 .row>* {
+    position: static;
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
@@ -4539,7 +4540,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-light .navbar-brand:hover,
@@ -8025,7 +8026,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #212529 !important;
+    background-color: #0080ff !important;
 }
 
 .bg-body {

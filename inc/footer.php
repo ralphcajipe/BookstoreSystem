@@ -60,9 +60,24 @@
 </script>
 <!-- Footer-->
 <footer class="py-5 bg-dark">
-            <div class="container">
-              <p class="m-0 text-center text-white">Copyright &copy; <?php echo $_settings->info('short_name') ?> 2021</p>
-              <p class="m-0 text-center text-white">Developed By: <a href="mailto:oretnom23@gmail.com">oretnom23</a></p>
+            <div class="container" style="display: flex; justify-content: space-evenly;">
+              <p style="width: 30%">  
+              <b style="font-size: 50px">Booker</b>
+              <br>The Ada team created an Ecommerce website in PHP.
+                This project offers the client or potential client of the book store access to an online platform where
+                they can browse and order the various book genres that the store or shop sells.
+              <br><br><br>Copyright © <?php echo date('Y') ?> All rights reserved. </br></p>
+              <p style="padding-top: 13px"><b style="font-size: 15px">COMPANY</b>
+              <br><a href="./?p=about" style="color: #1f2d3d; text-decoration: none">About Us</a><p>
+              <p style="padding-top: 13px"><b style="font-size: 15px">CUSTOMER SERVICE</b>
+              <br>◦ support@bookerbyada.com
+              <br>◦ (02)894-8890/818-6794</br>
+              <p style="padding-top: 13px"><b style="font-size: 15px">POLICIES</b>
+              <br><a href="./?p=privacy_policy" style="color: #1f2d3d; text-decoration: none">Privacy Policies</a><p>
+              <p style="padding-top: 13px"><b style="font-size: 15px">CONNECT WITH US</b>
+              <br><a href="https://facebook.com" target="_blank"><img src="uploads/fb.png" height="40px" width="40px"></a>
+              <a href="https://twitter.com" target="_blank"><img src="uploads/tw.png" height="40px" width="40px"></a>
+              <a href="https://instagram.com" target="_blank"><img src="uploads/ig.png" height="30px" width="30px"></a></p>
           </div>
         </footer>
 

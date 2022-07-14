@@ -31,9 +31,8 @@
                         <?php endif; ?>
                         <?php endwhile; ?>
                         <?php if($count_cats > 3): ?>
-                        <li class="nav-item"><a class="nav-link" href="./?p=view_categories">All Categories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./?p=view_categories">Browse</a></li>
                         <?php endif; ?>
-                        <li class="nav-item"><a class="nav-link" href="./?p=about">About</a></li>
                     </ul>
 
                     <form class="form-inline" id="search-form">
