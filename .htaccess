@@ -1,3 +1,6 @@
+# .htaccess files (or "distributed configuration files") provide a way to 
+# make configuration changes on a per-directory basis.
+
 <IfModule mod_rewrite.c>
 Header set Access-Control-Allow-Origin "*"
 RewriteEngine on

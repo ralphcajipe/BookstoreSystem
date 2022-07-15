@@ -1,4 +1,4 @@
-# BookstoreSystem
+# Booker: A System for Making
 
 ## 🅿 Click on Projects 
 This is where tasks are assigned and converted as issues; and their Todo, In Progress, and Done status are noted.

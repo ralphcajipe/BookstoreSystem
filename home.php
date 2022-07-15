@@ -29,11 +29,14 @@
                         $img = "uploads/product_" . $row['id'] . "/" . $fileO[2];
                     // var_dump($fileO);
                 }
+                /* Looping through the array and displaying the price. */
                 foreach ($row as $k => $v) {
                     $row[$k] = trim(stripslashes($v));
                 }
+                /* This is a query that is fetching data from the database. */
                 $inventory = $conn->query("SELECT * FROM inventory where product_id = " . $row['id']);
                 $inv = array();
+                /* This is a query that is fetching data from the database. */
                 while ($ir = $inventory->fetch_assoc()) {
                     $inv[] = number_format($ir['price']);
                 }
