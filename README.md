@@ -1,4 +1,6 @@
-# Booker: A System for Making
+# Booker: A System Making it Easy to Shop Books Online
+![](screenshots/homepage_landing.png)
+
 
 ## 🅿 Click on Projects 
 This is where tasks are assigned and converted as issues; and their Todo, In Progress, and Done status are noted.
