@@ -1,5 +1,5 @@
 <!-- Section-->
-<!-- A CSS code that is used to style the image. -->
+<!-- CSS code that is used to style the image. -->
 <style>
     .book-cover {
         object-fit: contain !important;
