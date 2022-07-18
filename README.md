@@ -9,7 +9,7 @@ We present Booker, a web system making it easy to shop books online. For book st
 ### Group Ada
 Ralph Cajipe*,
 Kyle Español*,
-Jeremiah Calig*,
+Jeremiah Calig 🙃*,
 Leigh Ascaño*,
 Sally Segundo*
 
