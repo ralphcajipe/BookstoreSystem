@@ -10,7 +10,7 @@ We present Booker, a web system making it easy to shop books online. For book st
 Ralph Cajipe*,
 💀 Kyle Español*,
 Jeremiah Calig*,
-Leigh Ascaño*,
+🐋Leigh Ascaño*,
 Sally Segundo*
 
 **Equal contribution.*
