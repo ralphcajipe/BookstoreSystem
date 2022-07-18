@@ -7,12 +7,10 @@ We present Booker, a web system making it easy to shop books online. For book st
 
 
 ### Group Ada
-Ralph Cajipe*,
+🥪 Ralph Cajipe*,
 🙃 Jeremiah Calig*,
 💀 Kyle Español*,
 🐋 Leigh Ascaño*,
 ☄️ Sally Segundo*
 
 **Equal contribution.*
-
-
