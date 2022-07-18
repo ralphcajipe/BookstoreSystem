@@ -11,7 +11,7 @@ Ralph Cajipe*,
 🙃 Jeremiah Calig*,
 💀 Kyle Español*,
 🐋 Leigh Ascaño*,
-Sally Segundo*
+☄️ Sally Segundo*
 
 **Equal contribution.*
 
